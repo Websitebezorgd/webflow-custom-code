@@ -1,0 +1,14 @@
+[slider="cards-basic"] .swiper-pagination-bullets.swiper-pagination-horizontal {
+  width: auto;
+}
+[slider="cards-basic"] .swiper-slide {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  transition: all 0.6s;
+}
+[slider="cards-basic"] .scaled {
+  clip-path: polygon(1% 1%, 99% 1%, 99% 99%, 1% 99%);
+  transition: all 0.6s;
+}
+[slider="cards-basic"] .swiper-slide {
+  height: auto !important;
+}

@@ -1,0 +1,50 @@
+body {
+  background-color: #080808;
+  margin: 0;
+}
+
+.draggable {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  color: white;
+}
+
+#world-wrapper {
+  height: 80vh;
+  width: 80vw;
+  background-color: white;
+  margin: auto;
+  margin-top: 10vh;
+  position: relative;
+}
+
+#world {
+  position: relative !important;
+  z-index: 2;
+  height: 100%;
+  widht: 100%;
+}
+
+#about {
+  width: 80px;
+  height: 40px;
+  background-color: red;
+}
+
+#instagram {
+  width: 200px;
+  height: 40px;
+  background-color: blue;
+}
+
+#random {
+  width: 112px;
+  height: 40px;
+  background-color: gray;
+}
